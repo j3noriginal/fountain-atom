@@ -20,6 +20,7 @@
   { 'include': '#notes' }
   { 'include': '#pagebreaks' }
   { 'include': '#action' }
+  { 'include': '#look_left' }
 ]
 
 'repository': {
@@ -44,6 +45,12 @@
     ]
   }
 
+  'look_left': {
+    'name': 'look_left.action.fountain'
+    'begin': '^L:'
+    'end': '^$'
+  }  
+  
   'comments': {
     'name': 'comment.block.fountain'
     'begin': '/\\*'
