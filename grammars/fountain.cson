@@ -42,11 +42,14 @@
       {
         'include': '#notes'
       }
+      {
+        'include': '#look_left'
+      }
     ]
   }
 
   'look_left': {
-    'name': 'look_left.action.fountain'
+    'name': 'look_left.fountain'
     'begin': '^L:'
     'end': '^$'
   }  
